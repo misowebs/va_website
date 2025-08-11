@@ -1,0 +1,28 @@
+{
+  "executives": {
+    "folder": "VA Images/2024/2024-2025 VA Officers/",
+    "images": [
+      "Maria.jpg",
+      "Princess.jpg",
+      "Sofi.jpg",
+      "Nathalia.jpg",
+      "Lucy.jpg"
+    ]
+  },
+  "gallery": {
+    "folder": "VA Images/Scrolling Gallery/",
+    "images": [
+        "scrolling-gallery-1.jpg",
+        "scrolling-gallery-2.HEIC",
+        "scrolling-gallery-3.jpg",
+        "scrolling-gallery-4.JPG",
+        "scrolling-gallery-5.JPG",
+        "scrolling-gallery-6.jpeg",
+        "scrolling-gallery-7.jpeg",
+        "scrolling-gallery-8.JPG",
+        "scrolling-gallery-9.jpeg",
+        "scrolling-gallery-10.jpeg",
+        "scrolling-gallery-11.jpeg"
+    ]
+  }
+}

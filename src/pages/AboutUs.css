@@ -1,0 +1,92 @@
+/* AboutUs page custom styles */
+
+.aboutus-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus-exec-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.aboutus-exec-card {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem 1.5rem;
+  max-width: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus-exec-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.aboutus-exec-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.aboutus-exec-role {
+  color: var(--brand-primary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.aboutus-exec-desc {
+  font-size: 0.98rem;
+  color: #555;
+}
+
+.aboutus-strip-gallery-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin: 2rem 0 0;
+  max-width: 900px;
+}
+
+.aboutus-strip-gallery {
+  display: flex;
+  gap: 2rem;
+  animation: aboutus-scroll-gallery 24s linear infinite;
+  will-change: transform;
+}
+
+.aboutus-strip-img {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  background: #eee;
+}
+
+@keyframes aboutus-scroll-gallery {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 700px) {
+  .aboutus-exec-team {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutus-strip-img {
+    width: 90px;
+    height: 60px;
+  }
+}
