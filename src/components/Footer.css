@@ -93,7 +93,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 875px) {
+@media (max-width: 750px) {
     .footer-container {
         flex-direction: column;
         align-items: left;
