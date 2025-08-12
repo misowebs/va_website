@@ -68,7 +68,7 @@
     display: none;
     background: none;
     border: none;
-    font-size: 1.75rem;
+    font-size: 2rem;
     cursor: pointer;
     color: black;
     align-self: center;
@@ -80,11 +80,12 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 0.5rem 2rem;
+        padding: 1rem 2rem;
     }
     
     .menu-toggle {
         display: block;
+        padding: 0.5rem 2rem;
     }
 
     .nav {
@@ -99,6 +100,7 @@
         overflow: hidden;
         transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
         gap: 1rem;
+        margin: -1rem;
     }
 
     .nav.open {

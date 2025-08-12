@@ -12,7 +12,7 @@ function Home() {
                     and contribute to our vibrant cultural community.
                 </p>
                 <div className="actions">
-                    <Link to="/join-us" className="btn btn-primary">Join Us</Link>
+                    <Link to="/join-us" className="btn btn-outline text-lg">Join Us</Link>
                 </div>
                 <img
                     src={`${CDN}/VA Images/2023/10 Arepada/2023-arepada-11.jpeg`}
@@ -75,7 +75,7 @@ function Home() {
                     and community members who share your interest in cultural exploration and community engagement.
                     </p>
                     <div className="actions" style={{ paddingBottom: '2rem' }}>
-                        <Link to="/about-us" className="btn btn-primary">Learn More</Link>
+                        <Link to="/about-us" className="btn btn-outline text-lg">Learn More</Link>
                     </div>
                 </div>
             </section>

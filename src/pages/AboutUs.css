@@ -7,19 +7,20 @@
 }
 
 .aboutus-exec-team {
+  max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .aboutus-exec-card {
   background: #fff;
   border-radius: 32px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-  padding: 2rem 1.5rem 1.5rem;
-  max-width: 220px;
+  padding: 1.5rem 1.5rem 1.5rem;  /*padding for the card, top, right, bottom, left*/
+  max-width: 350px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -27,10 +28,10 @@
 }
 
 .aboutus-exec-img {
-  width: 100px;
-  height: 100px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 24px;
   margin-bottom: 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
@@ -54,21 +55,41 @@
 
 .aboutus-strip-gallery-wrapper {
   width: 100%;
+  margin: 2rem 0rem 2rem;
+  max-width: 1480px;
+  position: relative;
   overflow: hidden;
-  margin: 2rem 0 0;
-  max-width: 900px;
+}
+
+.aboutus-strip-fade {
+  position: absolute;
+  top: 0;
+  width: 200px; /* Adjust width for fade size */
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.aboutus-strip-fade.left {
+  left: 0;
+  background: linear-gradient(to right, #ececec 50%, rgba(255,255,255,0));
+}
+
+.aboutus-strip-fade.right {
+  right: 0;
+  background: linear-gradient(to left, #ececec 50%, rgba(255,255,255,0));
 }
 
 .aboutus-strip-gallery {
   display: flex;
   gap: 2rem;
-  animation: aboutus-scroll-gallery 24s linear infinite;
+  animation: aboutus-scroll-gallery 35s linear infinite;
   will-change: transform;
 }
 
 .aboutus-strip-img {
-  width: 140px;
-  height: 90px;
+  width: 350px;
+  height: 200px;
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.10);
@@ -86,7 +107,10 @@
     align-items: center;
   }
   .aboutus-strip-img {
-    width: 90px;
-    height: 60px;
+    width: 350px;
+    height: 200px;
+  }
+  .aboutus-strip-gallery-wrapper {
+    max-width: 700px;
   }
 }
