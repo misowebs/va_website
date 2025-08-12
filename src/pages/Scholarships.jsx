@@ -14,7 +14,7 @@ function Scholarships() {
             <section className="section">
                 <div className="split">
                     <div className="stack-sm box-lined text-center">
-                        <h2 className="heading-md" style={{ margin: '0rem 0rem 0rem' }}>VA Executive Members</h2>
+                        <h2 className="heading-md" style={{ margin: '1rem 0rem 0rem' }}>VA Executive Members</h2>
                         <p className="text-md">
                         These scholarships are open to all Venezuelan Association executive members actively 
                         pursuing undergraduate or graduate degrees at the University of Oklahoma. Please note 
@@ -33,7 +33,7 @@ function Scholarships() {
             </section>
 
             <section className="section stack-lg text-center align-center">
-                <h1 className="heading-xl" style={{ margin: '4rem 0rem 0rem' }}>Ways to Donate</h1>
+                <h1 className="heading-xl" style={{ margin: '3rem 0rem 0rem' }}>Ways to Donate</h1>
             </section>
 
             {/* Section 2: right image, left text */}
@@ -49,7 +49,7 @@ function Scholarships() {
                         </a>
                     </div>
                     <div className="stack-sm box-lined align-center">
-                        <h2 className="heading-md" style={{ margin: '0rem 0rem 0rem' }}>VENOKAL Fund</h2>
+                        <h2 className="heading-md" style={{ margin: '1rem 0rem 0rem' }}>VENOKAL Fund</h2>
                         <p className="text-md text-center">
                         We are a collective of Venezuelan alumni from the University of Oklahoma, deeply appreciative 
                         of the educational opportunities provided by the university. Recognizing the challenges faced 
@@ -66,7 +66,7 @@ function Scholarships() {
 
             {/* Section 4: stacked title, paragraph, button */}
             <section className="section stack-lg text-center align-center">
-                <div className="stack-sm align-center" style={{ padding: '3rem' }}>
+                <div className="stack-sm align-center" style={{ padding: '2rem' }}>
                     <div>
                         <a href="https://www.oufoundation.org/" target="_blank" rel="noopener noreferrer">
                             <img
