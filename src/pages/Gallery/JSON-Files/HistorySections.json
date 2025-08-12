@@ -1,0 +1,440 @@
+{
+  "sections": [
+    {
+      "year": 2025,
+      "items": [
+        {
+          "id": "2025-1",
+          "type": "image",
+          "title": "Venezuelan Night",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2025 Venezuelan Night",
+          "link": "https://example.com/2025/item-1"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "items": [
+        {
+          "id": "2024-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 1",
+          "link": "https://example.com/2024/item-1"
+        },
+        {
+          "id": "2024-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 2",
+          "link": "https://example.com/2024/item-2"
+        },
+        {
+          "id": "2024-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 3",
+          "link": "https://example.com/2024/item-3"
+        },
+        {
+          "id": "2024-4",
+          "type": "image",
+          "title": "Item 4",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 4",
+          "link": "https://example.com/2024/item-4"
+        },
+        {
+          "id": "2024-5",
+          "type": "image",
+          "title": "Item 5",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 5",
+          "link": "https://example.com/2024/item-5"
+        },
+        {
+          "id": "2024-6",
+          "type": "image",
+          "title": "Item 6",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 6",
+          "link": "https://example.com/2024/item-6"
+        },
+        {
+          "id": "2024-7",
+          "type": "image",
+          "title": "Item 7",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 7",
+          "link": "https://example.com/2024/item-7"
+        },
+        {
+          "id": "2024-8",
+          "type": "image",
+          "title": "Item 8",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2024 item 8",
+          "link": "https://example.com/2024/item-8"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "items": [
+        {
+          "id": "2023-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 1",
+          "link": "https://example.com/2023/item-1"
+        },
+        {
+          "id": "2023-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 2",
+          "link": "https://example.com/2023/item-2"
+        },
+        {
+          "id": "2023-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 3",
+          "link": "https://example.com/2023/item-3"
+        },
+        {
+          "id": "2023-4",
+          "type": "image",
+          "title": "Item 4",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 4",
+          "link": "https://example.com/2023/item-4"
+        },
+        {
+          "id": "2023-5",
+          "type": "image",
+          "title": "Item 5",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 5",
+          "link": "https://example.com/2023/item-5"
+        },
+        {
+          "id": "2023-6",
+          "type": "image",
+          "title": "Item 6",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 6",
+          "link": "https://example.com/2023/item-6"
+        },
+        {
+          "id": "2023-7",
+          "type": "image",
+          "title": "Item 7",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2023 item 7",
+          "link": "https://example.com/2023/item-7"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "items": [
+        {
+          "id": "2022-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 1",
+          "link": "https://example.com/2022/item-1"
+        },
+        {
+          "id": "2022-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 2",
+          "link": "https://example.com/2022/item-2"
+        },
+        {
+          "id": "2022-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 3",
+          "link": "https://example.com/2022/item-3"
+        },
+        {
+          "id": "2022-4",
+          "type": "image",
+          "title": "Item 4",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 4",
+          "link": "https://example.com/2022/item-4"
+        },
+        {
+          "id": "2022-5",
+          "type": "image",
+          "title": "Item 5",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 5",
+          "link": "https://example.com/2022/item-5"
+        },
+        {
+          "id": "2022-6",
+          "type": "image",
+          "title": "Item 6",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2022 item 6",
+          "link": "https://example.com/2022/item-6"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "items": [
+        {
+          "id": "2021-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2021 item 1",
+          "link": "https://example.com/2021/item-1"
+        },
+        {
+          "id": "2021-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2021 item 2",
+          "link": "https://example.com/2021/item-2"
+        },
+        {
+          "id": "2021-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2021 item 3",
+          "link": "https://example.com/2021/item-3"
+        },
+        {
+          "id": "2021-4",
+          "type": "image",
+          "title": "Item 4",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2021 item 4",
+          "link": "https://example.com/2021/item-4"
+        },
+        {
+          "id": "2021-5",
+          "type": "image",
+          "title": "Item 5",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2021 item 5",
+          "link": "https://example.com/2021/item-5"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "items": [
+        {
+          "id": "2019-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2019 item 1",
+          "link": "https://example.com/2019/item-1"
+        },
+        {
+          "id": "2019-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2019 item 2",
+          "link": "https://example.com/2019/item-2"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "items": [
+        {
+          "id": "2018-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2018 item 1",
+          "link": "https://example.com/2018/item-1"
+        },
+        {
+          "id": "2018-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2018 item 2",
+          "link": "https://example.com/2018/item-2"
+        },
+        {
+          "id": "2018-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2018 item 3",
+          "link": "https://example.com/2018/item-3"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "items": [
+        {
+          "id": "2017-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 1",
+          "link": "https://example.com/2017/item-1"
+        },
+        {
+          "id": "2017-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 2",
+          "link": "https://example.com/2017/item-2"
+        },
+        {
+          "id": "2017-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 3",
+          "link": "https://example.com/2017/item-3"
+        },
+        {
+          "id": "2017-4",
+          "type": "image",
+          "title": "Item 4",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 4",
+          "link": "https://example.com/2017/item-4"
+        },
+        {
+          "id": "2017-5",
+          "type": "image",
+          "title": "Item 5",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 5",
+          "link": "https://example.com/2017/item-5"
+        },
+        {
+          "id": "2017-6",
+          "type": "image",
+          "title": "Item 6",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2017 item 6",
+          "link": "https://example.com/2017/item-6"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "items": [
+        {
+          "id": "2014-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2014 item 1",
+          "link": "https://example.com/2014/item-1"
+        },
+        {
+          "id": "2014-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2014 item 2",
+          "link": "https://example.com/2014/item-2"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "items": [
+        {
+          "id": "2006-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2006 item 1",
+          "link": "https://example.com/2006/item-1"
+        },
+        {
+          "id": "2006-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2006 item 2",
+          "link": "https://example.com/2006/item-2"
+        },
+        {
+          "id": "2006-3",
+          "type": "image",
+          "title": "Item 3",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2006 item 3",
+          "link": "https://example.com/2006/item-3"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "items": [
+        {
+          "id": "2005-1",
+          "type": "image",
+          "title": "Item 1",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2005 item 1",
+          "link": "https://example.com/2005/item-1"
+        },
+        {
+          "id": "2005-2",
+          "type": "image",
+          "title": "Item 2",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "2005 item 2",
+          "link": "https://example.com/2005/item-2"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "items": [
+        {
+          "id": "2004-1",
+          "type": "image",
+          "title": "Feria de la Chinita",
+          "src": "/public/images/page-items/home1.png",
+          "alt": "Feria de la Chinita 2004 graphic",
+          "link": "/2004FeriaDeLaChinita"
+        },
+        {
+          "id": "2004-2",
+          "type": "text",
+          "title": "Title",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": "https://example.com/2004/scholarship"
+        }
+      ]
+    }
+  ]
+}
