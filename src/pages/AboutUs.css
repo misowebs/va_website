@@ -111,6 +111,15 @@
     height: 200px;
   }
   .aboutus-strip-gallery-wrapper {
-    max-width: 450px;
+    max-width: 400px;
+  }
+  .aboutus-strip-fade {
+    width: 50px;
+  }
+  .aboutus-strip-fade.left {
+    background: linear-gradient(to right, #ececec 20%, rgba(255,255,255,0));
+  }
+  .aboutus-strip-fade.right {
+    background: linear-gradient(to left, #ececec 20%, rgba(255,255,255,0));
   }
 }
