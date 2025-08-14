@@ -1,40 +1,39 @@
 import { Link } from 'react-router-dom'
+import { SITE_CONFIG } from '../constants/siteConfig'
 import './Footer.css'
 
 function Footer() {
     return (
         <footer className='footer'>
             <div className="footer-container">
-
-                <div className="foorter-left">
+                <div className="footer-left">
                     <Link to="/" className="footer-logo">
                         <img src="/images/logos/VA_Logo.png" alt="VA Logo"/>
-                        <span className="footer-title">Venezuelan Association at OU</span>
+                        <span className="footer-title">{SITE_CONFIG.title}</span>
                     </Link>
-                    <p className="footer-description">We are dedicated to fostering a viant community by sharing Venezuelan culture and traditions with students, faculty, and the wider community.</p>
+                    <p className="footer-description">{SITE_CONFIG.description}</p>
                 </div>
 
                 <div className="footer-right">
                     <div className="footer-column">
                         <h4>About</h4>
-                        <a href="/about-us">About Us</a>
-                        <a href="/history">History</a>
-                        <a href="/scholarships">Scholarships</a>
-                        <a href="/join-us">Join Us</a>
+                        {SITE_CONFIG.navigation.slice(1).map(({ path, label }) => (
+                            <Link key={path} to={path}>{label}</Link>
+                        ))}
                     </div>
 
                     <div className="footer-column">
                         <h4>Social</h4>
-                        <a href="https://www.facebook.com/venezuelanassociation/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                        <a href="https://www.instagram.com/va_ou_/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        <a href="https://www.linkedin.com/company/vaou/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        <a href="https://www.tiktok.com/@afv_ou" target="_blank" rel="noopener noreferrer">TikTok</a>
+                        <a href={SITE_CONFIG.socialLinks.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href={SITE_CONFIG.socialLinks.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href={SITE_CONFIG.socialLinks.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href={SITE_CONFIG.socialLinks.tiktok} target="_blank" rel="noopener noreferrer">TikTok</a>
                     </div>
                 </div>
             </div>
 
             <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} Venezuelan Association at OU, developed by Yul Castro</p>
+                <p>© {new Date().getFullYear()} {SITE_CONFIG.title}, developed by Yul Castro</p>
             </div>
         </footer>
     )

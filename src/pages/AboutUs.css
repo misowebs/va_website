@@ -123,3 +123,31 @@
     background: linear-gradient(to left, #ececec 20%, rgba(255,255,255,0));
   }
 }
+
+.aboutus-year-text {
+  margin: 1.5rem auto 0;
+}
+
+.aboutus-exec-member-section {
+  margin-top: 4rem;
+}
+
+.aboutus-exec-member-text {
+  margin: 2rem 1.5rem 2rem;
+  max-width: 1240px;
+}
+
+.aboutus-get-involved {
+  align-items: center;
+}
+
+.aboutus-get-involved-text {
+  margin: 1.5rem 1rem 1rem;
+}
+
+.aboutus-benefits-list {
+  margin: 0 1rem 2rem;
+  text-align: left;
+  display: inline-block;
+  max-width: 1240px;
+}

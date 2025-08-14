@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './AboutUs.css';
 import globalPics from './Gallery/JSON-Files/GlobalPics.json';
+import { getCurrentYear } from '../utils/helpers';
 const CDN = import.meta.env.VITE_CDN_BASE;
 
 const execNames = [
@@ -26,8 +27,8 @@ function AboutUs() {
       {/* Section 1: Title */}
       <section className="section text-center">
         <h1 className="heading-xl">Meet Our Executive Team</h1>
-        <p className="text-lg max-w-prose" style={{ margin: '1.5rem auto 0' }}>
-          For the {new Date().getFullYear()}-{new Date().getFullYear()+1} academic year.
+        <p className="text-lg max-w-prose aboutus-year-text">
+          For the {getCurrentYear()}-{getCurrentYear()+1} academic year.
         </p>
       </section>
 
@@ -46,12 +47,12 @@ function AboutUs() {
       </section>
 
       {/* Section 3: Become an Executive Member */}
-      <section className="section text-center" style={{ marginTop: '4rem' }}>
+      <section className="section text-center aboutus-exec-member-section">
         <h2 className="heading-xl">Become an Executive Member</h2>
-        <p className="text-lg max-w-prose" style={{ margin: '2rem 1.5rem 2rem', maxWidth: '1240px' }}>
-        Join our executive team and play a pivotal role in shaping the future of the Venezuelan community. We’re 
+        <p className="text-lg max-w-prose aboutus-exec-member-text">
+        Join our executive team and play a pivotal role in shaping the future of the Venezuelan community. We're 
         actively looking for individuals passionate about Venezuelan culture, with a talent for leadership and a 
-        desire to make a difference. As an executive member, you’ll have the opportunity to lead projects, organize 
+        desire to make a difference. As an executive member, you'll have the opportunity to lead projects, organize 
         events, and foster a vibrant culture. Contact us to learn how you can become a part of our dynamic team.
         </p>
       </section>
@@ -70,12 +71,12 @@ function AboutUs() {
       </section>
 
       {/* Section 5: Get Involved */}
-      <section className="section text-center stack-lg" style={{ alignItems: 'center' }}>
+      <section className="section text-center stack-lg aboutus-get-involved">
         <h2 className="heading-xl">Get Involved</h2>
-        <p className="text-lg max-w-prose" style={{ margin: '1.5rem 1rem 1rem'}}>
+        <p className="text-lg max-w-prose aboutus-get-involved-text">
           Become a member of our vibrant association and unlock a world of rich experiences!
         </p>
-        <ul className="aboutus-benefits-list text-lg max-w-prose" style={{ margin: '0 1rem 2rem', textAlign: 'left', display: 'inline-block', maxWidth: '1240px' }}>
+        <ul className="aboutus-benefits-list text-lg max-w-prose">
           <li><strong>Cultural Events:</strong> Engage in a diverse range of events that celebrate our unique heritage, showcasing fascinating traditions and customs from our community.</li>
           <li><strong>Traditional Food:</strong> Savor the flavors of authentic cuisine, and taste the history and soul of our country with every bite.</li>
           <li><strong>Music and Dances:</strong> Immerse yourself in the enchanting rhythms and mesmerizing performances. Discover the stories and emotions expressed through the power of music and dance.</li>

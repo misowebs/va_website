@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
+import ErrorBoundary from './components/common/ErrorBoundary'
 
 // Page components
 import Layout from './components/Layout'
@@ -12,7 +12,7 @@ import FeriaDeLaChinita2004 from './pages/Gallery/JSX-Files/FeriaDeLaChinita2004
 
 function App() {
   return (
-    <>
+    <ErrorBoundary>
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/2004FeriaDeLaChinita" element={<FeriaDeLaChinita2004 />} />
         </Route>
       </Routes>
-    </>
+    </ErrorBoundary>
   )
 }
 
