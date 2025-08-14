@@ -7,9 +7,17 @@
           "id": "2025-1",
           "type": "image",
           "title": "Venezuelan Night",
-          "src": "/public/images/page-items/home1.png",
+          "src": "VA Images/Posters&Flyers/2025/2025-venezuelan-night.jpg",
           "alt": "2025 Venezuelan Night",
           "link": "https://example.com/2025/item-1"
+        },
+        {
+          "id": "2025-last",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -19,66 +27,66 @@
         {
           "id": "2024-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 1",
+          "title": "Eve of Nations",
+          "src": "VA Images/Posters&Flyers/2024/2024-eon.jpg",
+          "alt": "2024 Eve of Nations",
           "link": "https://example.com/2024/item-1"
         },
         {
           "id": "2024-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 2",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2024/2024-venezuelan-night.JPG",
+          "alt": "2024 Venezuelan Night",
           "link": "https://example.com/2024/item-2"
         },
         {
           "id": "2024-3",
           "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 3",
+          "title": "Backyard Grill",
+          "src": "VA Images/Posters&Flyers/2024/2024-backyard-grill.jpg",
+          "alt": "2024 Backyard Grill",
           "link": "https://example.com/2024/item-3"
         },
         {
           "id": "2024-4",
           "type": "image",
-          "title": "Item 4",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 4",
+          "title": "Fiestas de las Americas",
+          "src": "VA Images/Posters&Flyers/2024/2024-fiestas-de-las-americas.jpg",
+          "alt": "2024 Fiestas de las Americas",
           "link": "https://example.com/2024/item-4"
         },
         {
           "id": "2024-5",
           "type": "image",
-          "title": "Item 5",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 5",
+          "title": "Arepada",
+          "src": "VA Images/Posters&Flyers/2024/2024-arepada.jpg",
+          "alt": "2024 Arepada",
           "link": "https://example.com/2024/item-5"
         },
         {
           "id": "2024-6",
           "type": "image",
-          "title": "Item 6",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 6",
+          "title": "Simon Movie Night",
+          "src": "VA Images/Posters&Flyers/2024/2024-simon-movie-night.jpg",
+          "alt": "2024 Simon Movie Night",
           "link": "https://example.com/2024/item-6"
         },
         {
           "id": "2024-7",
           "type": "image",
-          "title": "Item 7",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 7",
+          "title": "Noche de Gaita",
+          "src": "VA Images/Posters&Flyers/2024/2024-noche-de-gaita.jpg",
+          "alt": "2024 Noche de Gaita",
           "link": "https://example.com/2024/item-7"
         },
         {
           "id": "2024-8",
-          "type": "image",
-          "title": "Item 8",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2024 item 8",
-          "link": "https://example.com/2024/item-8"
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -88,58 +96,58 @@
         {
           "id": "2023-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 1",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2023/2023-venezuelan-night.jpg",
+          "alt": "2023 Venezuelan Night",
           "link": "https://example.com/2023/item-1"
         },
         {
           "id": "2023-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 2",
+          "title": "Arepada & Game Night",
+          "src": "VA Images/Posters&Flyers/2023/2023-arepada-and-game-night.jpg",
+          "alt": "2023 Arepada and Game Night",
           "link": "https://example.com/2023/item-2"
         },
         {
           "id": "2023-3",
           "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 3",
+          "title": "Backyard Grill",
+          "src": "VA Images/Posters&Flyers/2023/2023-backyard-grill-with-afv.jpg",
+          "alt": "2023 Backyard Grill",
           "link": "https://example.com/2023/item-3"
         },
         {
           "id": "2023-4",
           "type": "image",
-          "title": "Item 4",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 4",
+          "title": "Arepada",
+          "src": "VA Images/Posters&Flyers/2023/2023-arepada.jpg",
+          "alt": "2023 Arepada",
           "link": "https://example.com/2023/item-4"
         },
         {
           "id": "2023-5",
           "type": "image",
-          "title": "Item 5",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 5",
+          "title": "Boys & Girls Club Show",
+          "src": "VA Images/Posters&Flyers/2023/2023-boys-and-girls-club-show.JPG",
+          "alt": "2023 Boys and Girls Club Show",
           "link": "https://example.com/2023/item-5"
         },
         {
           "id": "2023-6",
           "type": "image",
-          "title": "Item 6",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 6",
+          "title": "Noche de Gaita",
+          "src": "VA Images/Posters&Flyers/2023/2023-noche-de-gaita.jpg",
+          "alt": "2023 Noche de Gaita",
           "link": "https://example.com/2023/item-6"
         },
         {
           "id": "2023-7",
-          "type": "image",
-          "title": "Item 7",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2023 item 7",
-          "link": "https://example.com/2023/item-7"
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -149,50 +157,50 @@
         {
           "id": "2022-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 1",
+          "title": "Backyard Grill",
+          "src": "VA Images/Posters&Flyers/2022/2022-backyard-grill.jpg",
+          "alt": "2022 Backyard Grill",
           "link": "https://example.com/2022/item-1"
         },
         {
           "id": "2022-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 2",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2022/2022-venezuelan-night.jpg",
+          "alt": "2022 Venezuelan Night",
           "link": "https://example.com/2022/item-2"
         },
         {
           "id": "2022-3",
           "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 3",
+          "title": "BBQ Party & Game Night",
+          "src": "VA Images/Posters&Flyers/2022/2022-bbq-party-and-game-night.jpg",
+          "alt": "2022 BBQ Party and Game Night",
           "link": "https://example.com/2022/item-3"
         },
         {
           "id": "2022-4",
           "type": "image",
-          "title": "Item 4",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 4",
+          "title": "COLSA & AFV Cultural Night",
+          "src": "VA Images/Posters&Flyers/2022/2022-colsa-and-afv-cultural-night.jpg",
+          "alt": "2022 COLSA and AFV Cultural Night",
           "link": "https://example.com/2022/item-4"
         },
         {
           "id": "2022-5",
           "type": "image",
-          "title": "Item 5",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 5",
+          "title": "Hallacada",
+          "src": "VA Images/Posters&Flyers/2022/2022-hallacada.jpg",
+          "alt": "2022 Hallacada",
           "link": "https://example.com/2022/item-5"
         },
         {
-          "id": "2022-6",
-          "type": "image",
-          "title": "Item 6",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2022 item 6",
-          "link": "https://example.com/2022/item-6"
+          "id": "2024-8",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -202,42 +210,34 @@
         {
           "id": "2021-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2021 item 1",
+          "title": "Backyard Grill",
+          "src": "VA Images/Posters&Flyers/2021/2021-backyard-grill.jpg",
+          "alt": "2021 Backyard Grill",
           "link": "https://example.com/2021/item-1"
         },
         {
           "id": "2021-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2021 item 2",
+          "title": "Arepa & Game Night",
+          "src": "VA Images/Posters&Flyers/2021/2021-arepa-and-game-night.jpg",
+          "alt": "2021 Arepa and Game Night",
           "link": "https://example.com/2021/item-2"
         },
         {
           "id": "2021-3",
           "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2021 item 3",
+          "title": "Open Mic",
+          "src": "VA Images/Posters&Flyers/2021/2021-open-mic.jpg",
+          "alt": "2021 Open Mic",
           "link": "https://example.com/2021/item-3"
         },
         {
-          "id": "2021-4",
-          "type": "image",
-          "title": "Item 4",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2021 item 4",
-          "link": "https://example.com/2021/item-4"
-        },
-        {
-          "id": "2021-5",
-          "type": "image",
-          "title": "Item 5",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2021 item 5",
-          "link": "https://example.com/2021/item-5"
+          "id": "2024-4",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -247,18 +247,18 @@
         {
           "id": "2019-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2019 item 1",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2019-venezuelan-night.jpg",
+          "alt": "2019 Venezuelan Night",
           "link": "https://example.com/2019/item-1"
         },
         {
-          "id": "2019-2",
-          "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2019 item 2",
-          "link": "https://example.com/2019/item-2"
+          "id": "2024-2",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -268,26 +268,26 @@
         {
           "id": "2018-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2018 item 1",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2018/2018-venezuelan-night.jpg",
+          "alt": "2018 Venezuelan Night",
           "link": "https://example.com/2018/item-1"
         },
         {
           "id": "2018-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2018 item 2",
+          "title": "Feria Gaitera",
+          "src": "VA Images/Posters&Flyers/2018/2018-feria-gaitera-2.1.jpg",
+          "alt": "2018 Feria Gaitera",
           "link": "https://example.com/2018/item-2"
         },
         {
-          "id": "2018-3",
-          "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2018 item 3",
-          "link": "https://example.com/2018/item-3"
+          "id": "2024-3",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -297,50 +297,50 @@
         {
           "id": "2017-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 1",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2017/2017-venezuelan-night.jpg",
+          "alt": "2017 Venezuelan Night",
           "link": "https://example.com/2017/item-1"
         },
         {
           "id": "2017-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 2",
+          "title": "Soonerthon",
+          "src": "VA Images/Posters&Flyers/2017/2017-soonerthon.jpg",
+          "alt": "2017 Soonerthon",
           "link": "https://example.com/2017/item-2"
         },
         {
           "id": "2017-3",
           "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 3",
+          "title": "Arepazo",
+          "src": "VA Images/Posters&Flyers/2017/2017-arepazo.jpg",
+          "alt": "2017 Arepaz",
           "link": "https://example.com/2017/item-3"
         },
         {
           "id": "2017-4",
           "type": "image",
-          "title": "Item 4",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 4",
+          "title": "International Bazaar",
+          "src": "VA Images/Posters&Flyers/2017/2017-international-bazaar.jpg",
+          "alt": "2017 International Bazaar",
           "link": "https://example.com/2017/item-4"
         },
         {
           "id": "2017-5",
           "type": "image",
-          "title": "Item 5",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 5",
+          "title": "Feria Gaitera",
+          "src": "VA Images/Posters&Flyers/2017/2017-Feria-Gaitera.jpg",
+          "alt": "2017 Feria Gaitera",
           "link": "https://example.com/2017/item-5"
         },
         {
-          "id": "2017-6",
-          "type": "image",
-          "title": "Item 6",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2017 item 6",
-          "link": "https://example.com/2017/item-6"
+          "id": "2024-6",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -350,18 +350,18 @@
         {
           "id": "2014-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2014 item 1",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2014-venezuelan-night.jpg",
+          "alt": "2014 Venezuelan Night",
           "link": "https://example.com/2014/item-1"
         },
         {
-          "id": "2014-2",
-          "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2014 item 2",
-          "link": "https://example.com/2014/item-2"
+          "id": "2024-2",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -371,26 +371,26 @@
         {
           "id": "2006-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2006 item 1",
+          "title": "Pabellon Dinner",
+          "src": "VA Images/Posters&Flyers/2006-pabellon-dinner.jpg",
+          "alt": "2006 Pabellon Dinner",
           "link": "https://example.com/2006/item-1"
         },
         {
           "id": "2006-2",
           "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2006 item 2",
+          "title": "Gaitazo",
+          "src": "VA Images/Posters&Flyers/2006-gaitazo.jpg",
+          "alt": "2006 Gaitazo",
           "link": "https://example.com/2006/item-2"
         },
         {
-          "id": "2006-3",
-          "type": "image",
-          "title": "Item 3",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2006 item 3",
-          "link": "https://example.com/2006/item-3"
+          "id": "2024-3",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -400,18 +400,18 @@
         {
           "id": "2005-1",
           "type": "image",
-          "title": "Item 1",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2005 item 1",
+          "title": "Panam Night",
+          "src": "VA Images/Posters&Flyers/2005-panam-night.jpg",
+          "alt": "2005 Panam Night",
           "link": "https://example.com/2005/item-1"
         },
         {
-          "id": "2005-2",
-          "type": "image",
-          "title": "Item 2",
-          "src": "/public/images/page-items/home1.png",
-          "alt": "2005 item 2",
-          "link": "https://example.com/2005/item-2"
+          "id": "2024-2",
+          "type": "text",
+          "title": "Milestones",
+          "text": "Here is a text box",
+          "variant": "boxed",
+          "link": ""
         }
       ]
     },
@@ -422,17 +422,17 @@
           "id": "2004-1",
           "type": "image",
           "title": "Feria de la Chinita",
-          "src": "/public/images/page-items/home1.png",
+          "src": "VA Images/Posters&Flyers/2004-feria-de-la-chinita.jpg",
           "alt": "Feria de la Chinita 2004 graphic",
           "link": "/2004FeriaDeLaChinita"
         },
         {
-          "id": "2004-2",
+          "id": "2024-2",
           "type": "text",
-          "title": "Title",
+          "title": "Milestones",
           "text": "Here is a text box",
           "variant": "boxed",
-          "link": "https://example.com/2004/scholarship"
+          "link": ""
         }
       ]
     }
