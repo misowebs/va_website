@@ -49,9 +49,10 @@
   gap: var(--space-xl);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .split { grid-template-columns: 1.1fr 0.9fr; align-items: center; }
   .split.reverse { grid-template-columns: 0.9fr 1.1fr; }
+  .stack-sm.box-lined { padding: calc(var(--space-2xl) * 1); }
 }
 
 /* Typography */

@@ -48,7 +48,7 @@ function Scholarships() {
                             />
                         </a>
                     </div>
-                    <div className="stack-sm box-lined align-center">
+                    <div className="stack-xs box-lined align-center">
                         <h2 className="heading-md" style={{ margin: '1rem 0rem 0rem' }}>VENOKAL Fund</h2>
                         <p className="text-md text-center">
                         We are a collective of Venezuelan alumni from the University of Oklahoma, deeply appreciative 
