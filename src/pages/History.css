@@ -7,6 +7,7 @@
 .history-year-section {
   margin: 0 auto;
   max-width: 1240px;
+  min-height: auto;
 }
 
 .box-lined {
@@ -39,7 +40,7 @@
 /* Collapsible container */
 .history-items-collapsible {
   overflow: hidden;
-  transition: grid-template-rows 0.45s ease, opacity 0.35s ease, transform 0.35s ease;
+  transition: grid-template-rows 1.5s ease, opacity 0.35s ease, transform 0.35s ease;
   display: grid;
 }
 
@@ -69,7 +70,7 @@
 
 /* Responsive columns: 4 on desktop, 3 on tablet, 2 on mobile */
 .history-item {
-  grid-column: span 3;
+  grid-column: span 4;
 }
 
 /* Image cards */
@@ -134,11 +135,37 @@
   line-height: 1.5;
 }
 
-@media (max-width: 1024px) {
-  .history-item { grid-column: span 4; }
+/* Large screen modifications - show two sections open */
+@media (min-width: 1024px) {
+  .history-item { grid-column: span 3; }
+
+  .history-year-section.is-open {
+    min-height: auto;
+  }
+  
+  .history-year-section.is-closed {
+    min-height: auto;
+    opacity: 0.6;
+    transform: scale(0.98);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .history-year-section.is-closed:hover {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  
+  /* Adjust spacing for better visual separation when multiple sections are open */
+  .history-root {
+    gap: 1.5rem;
+  }
+  
+  .history-year-section {
+    margin: 0 auto 1rem auto;
+  }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 590px) {
   .history-item { grid-column: span 6; }
   .history-item-image { height: 180px; }
   .history-year-header { padding: 2rem 0rem 0rem 0.5rem; }

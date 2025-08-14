@@ -86,12 +86,23 @@ function History() {
   // ===== Sort Sections =====
   const sections = useMemo(() => [...(historyData.sections || [])].sort((a, b) => b.year - a.year), []);
   const sectionRefs = useRef([]);
-  const [openIndices, setOpenIndices] = useState(() => new Set([0, 1].filter((i) => i < sections.length)));
+  const [openIndex, setOpenIndex] = useState(0);
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsLargeScreen(window.innerWidth >= 1025);
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   useEffect(() => {
     let animationFrameId = 0;
 
-    const computeOpenIndices = () => {
+    const computeOpenIndex = () => {
       const total = sections.length;
       if (total === 0) return;
 
@@ -103,14 +114,13 @@ function History() {
 
       const atTop = scrollTop <= 8;
       if (atTop) {
-        setOpenIndices(new Set([0, 1].filter((i) => i < total)));
+        setOpenIndex(0);
         return;
       }
 
       const atBottom = scrollBottom >= docHeight - 8;
       if (atBottom) {
-        const start = Math.max(0, total - 2);
-        setOpenIndices(new Set([start, Math.min(start + 1, total - 1)]));
+        setOpenIndex(Math.max(0, total - 1));
         return;
       }
 
@@ -131,18 +141,18 @@ function History() {
         }
       }
 
-      setOpenIndices(new Set([bestIndex, Math.min(bestIndex + 1, total - 1)]));
+      setOpenIndex(bestIndex);
     };
 
     const onScrollOrResize = () => {
       if (animationFrameId) return;
       animationFrameId = window.requestAnimationFrame(() => {
-        computeOpenIndices();
+        computeOpenIndex();
         animationFrameId = 0;
       });
     };
 
-    computeOpenIndices();
+    computeOpenIndex();
     window.addEventListener('scroll', onScrollOrResize, { passive: true });
     window.addEventListener('resize', onScrollOrResize);
     return () => {
@@ -152,45 +162,49 @@ function History() {
     };
   }, [sections.length]);
 
-  const scrollSectionIntoCenter = (index) => {
-    const el = sectionRefs.current[index];
-    if (!el) return;
-
-    const rect = el.getBoundingClientRect();
-    const scrollTop = window.scrollY || window.pageYOffset;
-    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-    const absTop = rect.top + scrollTop;
-    const targetTop = Math.max(0, absTop - Math.max(0, (viewportHeight - rect.height) / 2));
-
-    const doc = document.documentElement;
-    const maxScroll = Math.max(0, Math.max(doc.scrollHeight, doc.offsetHeight, doc.clientHeight) - viewportHeight);
-
-    window.scrollTo({ top: Math.min(targetTop, maxScroll), behavior: 'smooth' });
-  };
-
   const handleSectionClick = (index) => (event) => {
     // Ignore clicks on interactive child elements
     const interactive = event.target.closest && event.target.closest('a,button');
     if (interactive) return;
 
     // Only act when section is closed
-    if (openIndices.has(index)) return;
+    if (openIndex === index) return;
 
-    // Optimistically open and then scroll to center
-    setOpenIndices(new Set([index, Math.min(index + 1, sections.length - 1)]));
-    scrollSectionIntoCenter(index);
+    // Open without auto-centering
+    setOpenIndex(index);
+  };
+
+  // Function to determine if a section should be open
+  const isSectionOpen = (index) => {
+    if (!isLargeScreen) {
+      // Mobile behavior: only one section open at a time
+      return openIndex === index;
+    } else {
+      // Large screen behavior: show two sections open
+      return index === openIndex || index === openIndex + 1;
+    }
   };
 
   return (
     <div className="history-root">
+      {/* Page Header */}
+      <div className="section text-center">
+        <div className="stack-lg">
+          <h1 className="heading-xl">Our History</h1>
+          <p className="text-lg max-w-prose" style={{ margin: '0 auto' }}>
+            Our journey has been fueled by the dedication of our members and the generous support of our donors, who believe in the power of cultural exchange and education. Over the years, each executive team has brought unique insights and enthusiasm, driving the organization forward. These leaders have ensured that, despite the geographical distance, the spirit of Venezuela thrives in Oklahoma.
+          </p>
+        </div>
+      </div>
+      
       {sections.map((section, i) => {
-        const isClickable = !openIndices.has(i);
+        const isClickable = !isSectionOpen(i);
         return (
           <Fragment key={section.year}>
             <HistorySection
               year={section.year}
               items={section.items || []}
-              isOpen={openIndices.has(i)}
+              isOpen={isSectionOpen(i)}
               isClickable={isClickable}
               onClick={handleSectionClick(i)}
               sectionRef={(el) => (sectionRefs.current[i] = el)}
