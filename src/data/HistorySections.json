@@ -9,7 +9,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2025/2025-venezuelan-night.jpg",
           "alt": "2025 Venezuelan Night",
-          "link": "https://example.com/2025/item-1"
+          "link": "/2025/VenezuelanNight"
         },
         {
           "id": "2025-last",
@@ -30,7 +30,7 @@
           "title": "Eve of Nations",
           "src": "VA Images/Posters&Flyers/2024/2024-eon.jpg",
           "alt": "2024 Eve of Nations",
-          "link": "https://example.com/2024/item-1"
+          "link": "/2024/EveOfNations"
         },
         {
           "id": "2024-2",
@@ -38,7 +38,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2024/2024-venezuelan-night.JPG",
           "alt": "2024 Venezuelan Night",
-          "link": "https://example.com/2024/item-2"
+          "link": "/2024/VenezuelanNight"
         },
         {
           "id": "2024-3",
@@ -46,7 +46,7 @@
           "title": "Backyard Grill",
           "src": "VA Images/Posters&Flyers/2024/2024-backyard-grill.jpg",
           "alt": "2024 Backyard Grill",
-          "link": "https://example.com/2024/item-3"
+          "link": "/2024/BackyardGrill"
         },
         {
           "id": "2024-4",
@@ -54,7 +54,7 @@
           "title": "Fiestas de las Americas",
           "src": "VA Images/Posters&Flyers/2024/2024-fiestas-de-las-americas.jpg",
           "alt": "2024 Fiestas de las Americas",
-          "link": "https://example.com/2024/item-4"
+          "link": "/2024/FiestasDeLasAmericas"
         },
         {
           "id": "2024-5",
@@ -62,7 +62,7 @@
           "title": "Arepada",
           "src": "VA Images/Posters&Flyers/2024/2024-arepada.jpg",
           "alt": "2024 Arepada",
-          "link": "https://example.com/2024/item-5"
+          "link": "/2024/Arepada"
         },
         {
           "id": "2024-6",
@@ -70,7 +70,7 @@
           "title": "Simon Movie Night",
           "src": "VA Images/Posters&Flyers/2024/2024-simon-movie-night.jpg",
           "alt": "2024 Simon Movie Night",
-          "link": "https://example.com/2024/item-6"
+          "link": "/2024/SimonMovieNight"
         },
         {
           "id": "2024-7",
@@ -78,7 +78,7 @@
           "title": "Noche de Gaita",
           "src": "VA Images/Posters&Flyers/2024/2024-noche-de-gaita.jpg",
           "alt": "2024 Noche de Gaita",
-          "link": "https://example.com/2024/item-7"
+          "link": "/2024/NocheDeGaita"
         },
         {
           "id": "2024-8",
@@ -99,7 +99,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2023/2023-venezuelan-night.jpg",
           "alt": "2023 Venezuelan Night",
-          "link": "https://example.com/2023/item-1"
+          "link": "/2023/VenezuelanNight"
         },
         {
           "id": "2023-2",
@@ -107,7 +107,7 @@
           "title": "Arepada & Game Night",
           "src": "VA Images/Posters&Flyers/2023/2023-arepada-and-game-night.jpg",
           "alt": "2023 Arepada and Game Night",
-          "link": "https://example.com/2023/item-2"
+          "link": "/2023/ArepadaGameNight"
         },
         {
           "id": "2023-3",
@@ -115,7 +115,7 @@
           "title": "Backyard Grill",
           "src": "VA Images/Posters&Flyers/2023/2023-backyard-grill-with-afv.jpg",
           "alt": "2023 Backyard Grill",
-          "link": "https://example.com/2023/item-3"
+          "link": "/2023/BackyardGrill"
         },
         {
           "id": "2023-4",
@@ -123,7 +123,7 @@
           "title": "Arepada",
           "src": "VA Images/Posters&Flyers/2023/2023-arepada.jpg",
           "alt": "2023 Arepada",
-          "link": "https://example.com/2023/item-4"
+          "link": "/2023/Arepada"
         },
         {
           "id": "2023-5",
@@ -131,7 +131,7 @@
           "title": "Boys & Girls Club Show",
           "src": "VA Images/Posters&Flyers/2023/2023-boys-and-girls-club-show.JPG",
           "alt": "2023 Boys and Girls Club Show",
-          "link": "https://example.com/2023/item-5"
+          "link": "/2023/BoysGirlsClubShow"
         },
         {
           "id": "2023-6",
@@ -139,7 +139,7 @@
           "title": "Noche de Gaita",
           "src": "VA Images/Posters&Flyers/2023/2023-noche-de-gaita.jpg",
           "alt": "2023 Noche de Gaita",
-          "link": "https://example.com/2023/item-6"
+          "link": "/2023/NocheDeGaita"
         },
         {
           "id": "2023-7",
@@ -160,7 +160,7 @@
           "title": "Backyard Grill",
           "src": "VA Images/Posters&Flyers/2022/2022-backyard-grill.jpg",
           "alt": "2022 Backyard Grill",
-          "link": "https://example.com/2022/item-1"
+          "link": "/2022/BackyardGrill"
         },
         {
           "id": "2022-2",
@@ -168,7 +168,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2022/2022-venezuelan-night.jpg",
           "alt": "2022 Venezuelan Night",
-          "link": "https://example.com/2022/item-2"
+          "link": "/2022/VenezuelanNight"
         },
         {
           "id": "2022-3",
@@ -176,7 +176,7 @@
           "title": "BBQ Party & Game Night",
           "src": "VA Images/Posters&Flyers/2022/2022-bbq-party-and-game-night.jpg",
           "alt": "2022 BBQ Party and Game Night",
-          "link": "https://example.com/2022/item-3"
+          "link": "/2022/BBQPartyGameNight"
         },
         {
           "id": "2022-4",
@@ -184,7 +184,7 @@
           "title": "COLSA & AFV Cultural Night",
           "src": "VA Images/Posters&Flyers/2022/2022-colsa-and-afv-cultural-night.jpg",
           "alt": "2022 COLSA and AFV Cultural Night",
-          "link": "https://example.com/2022/item-4"
+          "link": "/2022/COLSAAFVCulturalNight"
         },
         {
           "id": "2022-5",
@@ -192,7 +192,7 @@
           "title": "Hallacada",
           "src": "VA Images/Posters&Flyers/2022/2022-hallacada.jpg",
           "alt": "2022 Hallacada",
-          "link": "https://example.com/2022/item-5"
+          "link": "/2022/Hallacada"
         },
         {
           "id": "2024-8",
@@ -213,7 +213,7 @@
           "title": "Backyard Grill",
           "src": "VA Images/Posters&Flyers/2021/2021-backyard-grill.jpg",
           "alt": "2021 Backyard Grill",
-          "link": "https://example.com/2021/item-1"
+          "link": "/2021/BackyardGrill"
         },
         {
           "id": "2021-2",
@@ -221,7 +221,7 @@
           "title": "Arepa & Game Night",
           "src": "VA Images/Posters&Flyers/2021/2021-arepa-and-game-night.jpg",
           "alt": "2021 Arepa and Game Night",
-          "link": "https://example.com/2021/item-2"
+          "link": "/2021/ArepaGameNight"
         },
         {
           "id": "2021-3",
@@ -229,7 +229,7 @@
           "title": "Open Mic",
           "src": "VA Images/Posters&Flyers/2021/2021-open-mic.jpg",
           "alt": "2021 Open Mic",
-          "link": "https://example.com/2021/item-3"
+          "link": "/2021/OpenMic"
         },
         {
           "id": "2024-4",
@@ -250,7 +250,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2019-venezuelan-night.jpg",
           "alt": "2019 Venezuelan Night",
-          "link": "https://example.com/2019/item-1"
+          "link": "/2019/VenezuelanNight"
         },
         {
           "id": "2024-2",
@@ -271,7 +271,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2018/2018-venezuelan-night.jpg",
           "alt": "2018 Venezuelan Night",
-          "link": "https://example.com/2018/item-1"
+          "link": "/2018/VenezuelanNight"
         },
         {
           "id": "2018-2",
@@ -279,7 +279,7 @@
           "title": "Feria Gaitera",
           "src": "VA Images/Posters&Flyers/2018/2018-feria-gaitera-2.1.jpg",
           "alt": "2018 Feria Gaitera",
-          "link": "https://example.com/2018/item-2"
+          "link": "/2018/FeriaGaitera"
         },
         {
           "id": "2024-3",
@@ -300,7 +300,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2017/2017-venezuelan-night.jpg",
           "alt": "2017 Venezuelan Night",
-          "link": "https://example.com/2017/item-1"
+          "link": "/2017/VenezuelanNight"
         },
         {
           "id": "2017-2",
@@ -308,7 +308,7 @@
           "title": "Soonerthon",
           "src": "VA Images/Posters&Flyers/2017/2017-soonerthon.jpg",
           "alt": "2017 Soonerthon",
-          "link": "https://example.com/2017/item-2"
+          "link": "/2017/Soonerthon"
         },
         {
           "id": "2017-3",
@@ -316,7 +316,7 @@
           "title": "Arepazo",
           "src": "VA Images/Posters&Flyers/2017/2017-arepazo.jpg",
           "alt": "2017 Arepaz",
-          "link": "https://example.com/2017/item-3"
+          "link": "/2017/Arepazo"
         },
         {
           "id": "2017-4",
@@ -324,7 +324,7 @@
           "title": "International Bazaar",
           "src": "VA Images/Posters&Flyers/2017/2017-international-bazaar.jpg",
           "alt": "2017 International Bazaar",
-          "link": "https://example.com/2017/item-4"
+          "link": "/2017/InternationalBazaar"
         },
         {
           "id": "2017-5",
@@ -332,7 +332,7 @@
           "title": "Feria Gaitera",
           "src": "VA Images/Posters&Flyers/2017/2017-Feria-Gaitera.jpg",
           "alt": "2017 Feria Gaitera",
-          "link": "https://example.com/2017/item-5"
+          "link": "/2017/FeriaGaitera"
         },
         {
           "id": "2024-6",
@@ -353,7 +353,7 @@
           "title": "Venezuelan Night",
           "src": "VA Images/Posters&Flyers/2014-venezuelan-night.jpg",
           "alt": "2014 Venezuelan Night",
-          "link": "https://example.com/2014/item-1"
+          "link": "/2014/VenezuelanNight"
         },
         {
           "id": "2024-2",
@@ -374,7 +374,7 @@
           "title": "Pabellon Dinner",
           "src": "VA Images/Posters&Flyers/2006-pabellon-dinner.jpg",
           "alt": "2006 Pabellon Dinner",
-          "link": "https://example.com/2006/item-1"
+          "link": "/2006/PabellonDinner"
         },
         {
           "id": "2006-2",
@@ -382,7 +382,7 @@
           "title": "Gaitazo",
           "src": "VA Images/Posters&Flyers/2006-gaitazo.jpg",
           "alt": "2006 Gaitazo",
-          "link": "https://example.com/2006/item-2"
+          "link": "/2006/Gaitazo"
         },
         {
           "id": "2024-3",
@@ -403,7 +403,7 @@
           "title": "Panam Night",
           "src": "VA Images/Posters&Flyers/2005-panam-night.jpg",
           "alt": "2005 Panam Night",
-          "link": "https://example.com/2005/item-1"
+          "link": "/2005/PanamNight"
         },
         {
           "id": "2024-2",
@@ -423,8 +423,8 @@
           "type": "image",
           "title": "Feria de la Chinita",
           "src": "VA Images/Posters&Flyers/2004-feria-de-la-chinita.jpg",
-          "alt": "Feria de la Chinita 2004 graphic",
-          "link": "/2004FeriaDeLaChinita"
+          "alt": "Feria de la Chinita 2004",
+          "link": "/2004/FeriaDeLaChinita"
         },
         {
           "id": "2024-2",

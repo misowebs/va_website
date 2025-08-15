@@ -21,4 +21,5 @@ export const SITE_CONFIG = {
   ]
 };
 
-export const CDN = import.meta.env.VITE_CDN_BASE;
+// CDN base URL with fallback
+export const CDN = import.meta.env.VITE_CDN_BASE || '/public/images';

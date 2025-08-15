@@ -8,7 +8,7 @@ import AboutUs from './pages/aboutUs/AboutUs'
 import History from './pages/history/History'
 import Scholarships from './pages/scholarships/Scholarships'
 import JoinUs from './pages/joinUs/JoinUs'
-import FeriaDeLaChinita2004 from './pages/history/galleries/2004/FeriaDeLaChinita2004'
+import { galleryRoutes } from './routes/galleryRoutes'  // Gallery routes - centralized configuration
 
 function App() {
   return (
@@ -20,7 +20,15 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/scholarships" element={<Scholarships />} />
           <Route path="/join-us" element={<JoinUs />} />
-          <Route path="/2004FeriaDeLaChinita" element={<FeriaDeLaChinita2004 />} />
+          
+          {/* Gallery routes - automatically generated from galleryRoutes */}
+          {galleryRoutes.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              element={<route.element />}
+            />
+          ))}
         </Route>
       </Routes>
     </ErrorBoundary>

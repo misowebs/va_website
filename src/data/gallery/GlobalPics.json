@@ -1,14 +1,14 @@
 {
   "executives": {
-    "folder": "VA Images/2024/2024-2025 VA Officers/",
+    "folder": "VA Images/VA Execs/",
     "images": [
-      "Maria.jpg",
-      "Princess.jpg",
-      "Sofi.jpg",
-      "Nathalia.jpg",
-      "Lucy.jpg",
-      "Lucy.jpg",
-      "Lucy.jpg"
+      "President.jpg",
+      "Vice President.jpg",
+      "Secretary.jpg",
+      "Treasurer.jpg",
+      "Social Media.jpg",
+      "Social Media.jpg",
+      "Social Media.jpg"
     ]
   },
   "gallery": {
@@ -25,6 +25,19 @@
         "scrolling-gallery-9.jpeg",
         "scrolling-gallery-10.jpeg",
         "scrolling-gallery-11.jpeg"
+    ]
+  },
+  "scholarships": {
+    "title": "Scholarships",
+    "folder": "VA Images/Scholarships Gallery/",
+    "images": [
+      "scholarship-gallery-1.jpg",
+      "scholarship-gallery-2.jpg",
+      "scholarship-gallery-3.jpg",
+      "scholarship-gallery-4.jpg",
+      "scholarship-gallery-5.jpg",
+      "scholarship-gallery-6.jpg",
+      "scholarship-gallery-7.jpg"
     ]
   }
 }

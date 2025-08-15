@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
-import data from '../../data/gallery/Scholarships.json';
+import data from '../../data/gallery/GlobalPics.json';
 import { CDN } from '../../constants/siteConfig';
 import GalleryCarousel from '../../components/ui/galleryCarousel/GalleryCarousel';
 
 function Scholarships() {
+    const scholarshipsData = data.scholarships;
+    
     return (
         <div className="site-container">
             <section className="section stack-lg text-center align-center">
@@ -25,7 +27,7 @@ function Scholarships() {
                     </div>
                     <div>
                         <GalleryCarousel
-                            images={data.images.map(img => `${CDN}/${data.folder}${img}`)}
+                            images={scholarshipsData.images.map(img => `${CDN}/${scholarshipsData.folder}${img}`)}
                             altPrefix="Scholarship Gallery"
                         />
                     </div>
@@ -42,7 +44,7 @@ function Scholarships() {
                     <div>
                         <a href="https://www.facebook.com/groups/314536095607719/" target="_blank" rel="noopener noreferrer">
                             <img
-                                src={`${CDN}/${data.folder}venokal-logo.jpg`}
+                                src={`${CDN}/${scholarshipsData.folder}venokal-logo.jpg`}
                                 alt="OU Club of Venezuelan Alumni Association (VENOKAL) Logo"
                                 className="img-responsive img-rounded img-shadow"
                             />
@@ -70,7 +72,7 @@ function Scholarships() {
                     <div>
                         <a href="https://www.oufoundation.org/" target="_blank" rel="noopener noreferrer">
                             <img
-                                src={`${CDN}/${data.folder}ou-foindation-logo.jpg`}
+                                src={`${CDN}/${scholarshipsData.folder}ou-foindation-logo.jpg`}
                                 alt="OU Foundation Logo"
                                 className="img-rounded "
                             />
