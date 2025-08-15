@@ -1,4 +1,4 @@
-import SocialLinks from '../components/common/SocialLinks';
+import SocialLinks from '../../components/ui/socialLinks/SocialLinks';
 
 function JoinUs() {
   return (

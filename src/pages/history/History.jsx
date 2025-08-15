@@ -1,8 +1,8 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './History.css';
-import historyData from './Gallery/JSON-Files/HistorySections.json';
-const CDN = import.meta.env.VITE_CDN_BASE;
+import historyData from '../../data/HistorySections.json';
+import { CDN } from '../../constants/siteConfig';
 
 function isInternalLink(url) {
   return typeof url === 'string' && url.startsWith('/');

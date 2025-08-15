@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { SITE_CONFIG } from '../constants/siteConfig'
+import { SITE_CONFIG } from '../../../constants/siteConfig'
 import './Footer.css'
 
 function Footer() {

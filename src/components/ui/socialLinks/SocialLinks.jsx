@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaYoutube, FaTiktok } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { GiGraduateCap } from 'react-icons/gi';
-import { SITE_CONFIG } from '../../constants/siteConfig';
+import { SITE_CONFIG } from '../../../constants/siteConfig';
 
 const SOCIAL_ICONS = {
   facebook: { icon: FaFacebookF, color: '#1877f3' },

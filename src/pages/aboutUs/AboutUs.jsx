@@ -1,23 +1,23 @@
 import { Link } from 'react-router-dom'
 import './AboutUs.css';
-import globalPics from './Gallery/JSON-Files/GlobalPics.json';
-import { getCurrentYear } from '../utils/helpers';
-const CDN = import.meta.env.VITE_CDN_BASE;
+import globalPics from '../../data/gallery/GlobalPics.json';
+import { getCurrentYear } from '../../utils/helpers';
+import { CDN } from '../../constants/siteConfig';
 
 const execNames = [
-  { name: 'Maria Garcia', role: 'President', desc: 'From Maracaibo, Venezuela, Maria is a sophomore in Political Science.' },
-  { name: 'Julie Torres', role: 'Vice President', desc: 'From Jalisco, Mexico, Princess is a junior in Business Administration.' },
-  { name: 'Sofi Quintero', role: 'Treasurer', desc: 'From Caracas, Venezuela, Sofi is a junior in Psychology.' },
-  { name: 'Nathalia Valdez', role: 'Secretary', desc: 'From Monagas, Venezuela, Nathalia is a freshman Pre-Nursing with a minor in Business.' },
-  { name: 'Lucy Torres', role: 'Social Media Cahir', desc: 'From Jalisco, Mexico, Princess is a junior in Business Administration.' },
-  { name: 'Lucy Torres', role: 'Social Media Cahir', desc: 'From Jalisco, Mexico, Princess is a junior in Business Administration.' },
-  { name: 'Lucy Torres', role: 'Social Media Cahir', desc: 'From Jalisco, Mexico, Princess is a junior in Business Administration.' },
+  ['President', 'Maria Garcia', 'From Maracaibo, Venezuela, Maria is a sophomore in Political Science.'],
+  ['Vice President', 'Princess Torres', 'From Jalisco, Mexico, Princess is a junior in Business Administration.'],
+  ['Treasurer', 'Sofi Quintero', 'From Caracas, Venezuela, Sofi is a junior in Psychology.'],
+  ['Secretary', 'Nathalia Valdez', 'From Monagas, Venezuela, Nathalia is a freshman Pre-Nursing with a minor in Business.'],
+  ['Social Media Chair', 'Lucy Torres', 'From Jalisco, Mexico, Lucy is a junior in Business Administration.'],
+  ['Venezuelan Night Coordinator', '[Name]', 'From [Location], [Name] is a [Year] in [Major].'],
+  ['[Role]', '[Name]', 'From [Location], [Name] is a [Year] in [Major].']
 ];
 
-const execTeam = globalPics.executives.images.map((img, i) => ({
-  img: `${CDN}/${globalPics.executives.folder}${img}`,
-  ...execNames[i],
-}));
+const execTeam = globalPics.executives.images.map((img, i) => {
+  const [role, name, desc] = execNames[i] || ["", "", ""];
+  return { img: `${CDN}/${globalPics.executives.folder}${img}`, name, role, desc, };
+});
 
 const galleryImages = globalPics.gallery.images.map(img => `${CDN}/${globalPics.gallery.folder}${img}`);
 
@@ -28,7 +28,12 @@ function AboutUs() {
       <section className="section text-center">
         <h1 className="heading-xl">Meet Our Executive Team</h1>
         <p className="text-lg max-w-prose aboutus-year-text">
-          For the {getCurrentYear()}-{getCurrentYear()+1} academic year.
+          {(() => {
+            const now = new Date();
+            const year = getCurrentYear();
+            if (now.getMonth() < 7) { return `For the ${year - 1}-${year} academic year.`;
+            } else { return `For the ${year}-${year + 1} academic year.`; }
+          })()}
         </p>
       </section>
 

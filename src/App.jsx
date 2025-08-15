@@ -2,13 +2,13 @@ import { Routes, Route } from 'react-router-dom'
 import ErrorBoundary from './components/common/ErrorBoundary'
 
 // Page components
-import Layout from './components/Layout'
-import Home from './pages/Home'
-import AboutUs from './pages/AboutUs'
-import History from './pages/History'
-import Scholarships from './pages/Scholarships'
-import JoinUs from './pages/JoinUs'
-import FeriaDeLaChinita2004 from './pages/Gallery/JSX-Files/FeriaDeLaChinita2004'
+import Layout from './components/layout/Layout'
+import Home from './pages/home/Home'
+import AboutUs from './pages/aboutUs/AboutUs'
+import History from './pages/history/History'
+import Scholarships from './pages/scholarships/Scholarships'
+import JoinUs from './pages/joinUs/JoinUs'
+import FeriaDeLaChinita2004 from './pages/history/galleries/2004/FeriaDeLaChinita2004'
 
 function App() {
   return (

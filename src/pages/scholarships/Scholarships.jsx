@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import data from './Gallery/JSON-Files/Scholarships.json';
-const CDN = import.meta.env.VITE_CDN_BASE;
-import GalleryCarousel from '../components/GalleryCarousel';
+import data from '../../data/gallery/Scholarships.json';
+import { CDN } from '../../constants/siteConfig';
+import GalleryCarousel from '../../components/ui/galleryCarousel/GalleryCarousel';
 
 function Scholarships() {
     return (

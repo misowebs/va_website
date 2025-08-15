@@ -21,4 +21,4 @@ export const SITE_CONFIG = {
   ]
 };
 
-export const CDN_BASE = import.meta.env.VITE_CDN_BASE;
+export const CDN = import.meta.env.VITE_CDN_BASE;
