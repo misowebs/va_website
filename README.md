@@ -187,7 +187,7 @@ The project is configured for automatic deployment via AWS Amplify:
 ## 🤝 Contributing
 
 ### **Development Team**
-- **Lead Developer**: [Yul Castro Barazarte](mailto:yul.castro@ou.edu)
+- **Lead Developer**: [Yul Castro Barazarte](mailto:yul@misowebs.com)
 - **Project Manager**: Venezuelan Association Executive Board
 - **Design Team**: VA Marketing Committee
 
@@ -214,9 +214,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Contact & Support
 
-### **Technical Support**
-- **Lead Developer**: [Yul Castro Barazarte](mailto:yul@misowebs.com)
-
 ### **Organization Contact**
 - **Email**: [va@groups.ou.edu](mailto:va@groups.ou.edu)
 - **Website**: [vaou.edu](https://vaou.edu)
@@ -226,7 +223,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-**Built with ❤️ for the Venezuelan Community at OU**
+**Built with ❤️ for the Venezuelan Community**
 
 *Promoting culture, fostering community, building connections*
 
