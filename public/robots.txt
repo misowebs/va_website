@@ -4,16 +4,13 @@
 User-agent: *
 Allow: /
 
-# Allow all search engines to crawl the entire site
-# This includes main pages, gallery pages, and all content
-
 # Sitemap location
 Sitemap: https://vaou.org/sitemap.xml
 
-# Crawl delay (optional - helps with server load)
+# Crawl delay (helps with server load)
 Crawl-delay: 1
 
-# Specific rules for different user agents (optional)
+# Specific rules for different search engines
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -26,9 +23,9 @@ User-agent: Slurp
 Allow: /
 Crawl-delay: 1
 
-# Block access to admin or private areas (if any exist in the future)
-# Disallow: /admin/
-# Disallow: /private/
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
 
 # Allow access to important resources
 Allow: /images/
@@ -42,23 +39,9 @@ Allow: /*.jpeg
 Allow: /*.gif
 Allow: /*.svg
 Allow: /*.ico
+Allow: /*.webp
 
-# Block access to development files
-Disallow: /.git/
-Disallow: /node_modules/
-Disallow: /.vscode/
-Disallow: /*.log
-Disallow: /*.md
-Disallow: /package.json
-Disallow: /package-lock.json
-Disallow: /vite.config.js
-Disallow: /eslint.config.js
-Disallow: /amplify.yml
-
-# Block access to source maps (production only)
-Disallow: /*.map
-
-# Allow all gallery pages
+# Allow all gallery pages and main content
 Allow: /2025/
 Allow: /2024/
 Allow: /2023/
@@ -77,3 +60,31 @@ Allow: /about-us
 Allow: /history
 Allow: /scholarships
 Allow: /join-us
+
+# Block access to development and system files
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.vscode/
+Disallow: /*.log
+Disallow: /*.md
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /vite.config.js
+Disallow: /eslint.config.js
+Disallow: /amplify.yml
+Disallow: /.env
+Disallow: /.env.local
+Disallow: /.env.production
+
+# Block access to source maps and development files
+Disallow: /*.map
+Disallow: /src/
+Disallow: /public/
+
+# Block access to temporary and cache files
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /temp/
+
+# Allow search engines to index the site
+Allow: /
