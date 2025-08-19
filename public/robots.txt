@@ -1,0 +1,79 @@
+# Robots.txt for Venezuelan Association at OU Website
+# https://vaou.org/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# This includes main pages, gallery pages, and all content
+
+# Sitemap location
+Sitemap: https://vaou.org/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Specific rules for different user agents (optional)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block access to admin or private areas (if any exist in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow access to important resources
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# Block access to development files
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.vscode/
+Disallow: /*.log
+Disallow: /*.md
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /vite.config.js
+Disallow: /eslint.config.js
+Disallow: /amplify.yml
+
+# Block access to source maps (production only)
+Disallow: /*.map
+
+# Allow all gallery pages
+Allow: /2025/
+Allow: /2024/
+Allow: /2023/
+Allow: /2022/
+Allow: /2021/
+Allow: /2019/
+Allow: /2018/
+Allow: /2017/
+Allow: /2014/
+Allow: /2006/
+Allow: /2005/
+Allow: /2004/
+
+# Main navigation pages
+Allow: /about-us
+Allow: /history
+Allow: /scholarships
+Allow: /join-us
