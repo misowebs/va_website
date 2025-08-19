@@ -15,14 +15,14 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://vaou.edu/" />
+    <meta property="og:url" content="https://vaou.org/" />
     <meta property="og:title" content="Venezuelan Association at OU | Venezuelan Culture & Community" />
     <meta property="og:description" content="Join the vibrant Venezuelan community at the University of Oklahoma. Discover our cultural events, scholarships, and community activities." />
     <meta property="og:image" content="/images/logos/VA_Logo.png" />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://vaou.edu/" />
+    <meta property="twitter:url" content="https://vaou.org/" />
     <meta property="twitter:title" content="Venezuelan Association at OU | Venezuelan Culture & Community" />
     <meta property="twitter:description" content="Join the vibrant Venezuelan community at the University of Oklahoma. Discover our cultural events, scholarships, and community activities." />
     <meta property="twitter:image" content="/images/logos/VA_Logo.png" />
@@ -31,8 +31,63 @@
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
     <meta name="theme-color" content="#004080" />
-    <link rel="canonical" href="https://vaou.edu/" />
+    <link rel="canonical" href="https://vaou.org/" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Venezuelan Association at OU",
+      "url": "https://vaou.org",
+      "logo": "https://vaou.org/images/logos/VA_Logo.png",
+      "description": "We are dedicated to fostering a vibrant community by sharing Venezuelan culture and traditions with students, faculty, and the wider community.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Norman",
+        "addressRegion": "OK",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "va@groups.ou.edu",
+        "contactType": "general"
+      },
+      "sameAs": [
+        "https://www.facebook.com/venezuelanassociation/",
+        "https://www.instagram.com/va_ou_/",
+        "https://www.linkedin.com/company/vaou/",
+        "https://www.tiktok.com/@afv_ou"
+      ],
+      "foundingDate": "2004",
+      "location": {
+        "@type": "Place",
+        "name": "University of Oklahoma",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Norman",
+          "addressRegion": "OK",
+          "addressCountry": "US"
+        }
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Venezuelan Association at OU",
+      "url": "https://vaou.org",
+      "description": "Official website of the Venezuelan Association at the University of Oklahoma",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://vaou.org/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
