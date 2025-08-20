@@ -248,12 +248,20 @@
           "id": "2019-1",
           "type": "image",
           "title": "Venezuelan Night",
-          "src": "VA Images/Posters&Flyers/2019-venezuelan-night.jpg",
+          "src": "VA Images/Posters&Flyers/2019/2019-venezuelan-night.png",
           "alt": "2019 Venezuelan Night",
           "link": "/2019/VenezuelanNight"
         },
         {
-          "id": "2024-2",
+          "id": "2019-2",
+          "type": "image",
+          "title": "Venezuelan Night",
+          "src": "VA Images/Posters&Flyers/2019/2019-noche-gaitera.jpg",
+          "alt": "2019 Venezuelan Night",
+          "link": "/2019/VenezuelanNight"
+        },
+        {
+          "id": "2024-3",
           "type": "text",
           "title": "Milestones",
           "text": "Here is a text box",
@@ -277,7 +285,7 @@
           "id": "2018-2",
           "type": "image",
           "title": "Feria Gaitera",
-          "src": "VA Images/Posters&Flyers/2018/2018-feria-gaitera-2.1.jpg",
+          "src": "VA Images/Posters&Flyers/2018/2018-noche-gaitera.jpg",
           "alt": "2018 Feria Gaitera",
           "link": "/2018/FeriaGaitera"
         },
@@ -330,7 +338,7 @@
           "id": "2017-5",
           "type": "image",
           "title": "Feria Gaitera",
-          "src": "VA Images/Posters&Flyers/2017/2017-Feria-Gaitera.jpg",
+          "src": "VA Images/Posters&Flyers/2017/2017-noche-gaitera.jpg",
           "alt": "2017 Feria Gaitera",
           "link": "/2017/FeriaGaitera"
         },
