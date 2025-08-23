@@ -40,12 +40,13 @@ function JoinUs() {
 
   return (
     <div className="site-container" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
-      <h1 className="heading-xl text-center">VA Next Event Coming Soon</h1>
       
-      <div id="eventbrite-widget-container-1623749611799"></div>
-      
-      <h1 className="heading-xl text-center" style={{ paddingTop: '3rem', marginTop: '2rem', marginBottom: '2rem' }}>Connect with Us</h1>
+      <h1 className="heading-xl text-center" style={{ paddingTop: '0rem', marginTop: '2rem', marginBottom: '2rem' }}>Connect with Us</h1>
       <SocialLinks size={50} />
+
+      <h1 className="heading-xl text-center" style={{ paddingTop: '4rem', marginTop: '2rem', marginBottom: '4rem' }}>Check Out Our Next Event</h1>
+      <div id="eventbrite-widget-container-1623749611799" style={{ borderRadius: '10px', overflow: 'hidden' }}></div>
+
     </div>
   );
 }
