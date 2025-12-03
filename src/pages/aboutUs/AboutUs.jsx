@@ -8,10 +8,7 @@ const execNames = [
   ['President', 'Maria Garcia', 'From Maracaibo, Venezuela, Maria is a sophomore in Political Science.'],
   ['Vice President', 'Princess Torres', 'From Jalisco, Mexico, Princess is a junior in Business Administration.'],
   ['Treasurer', 'Sofi Quintero', 'From Caracas, Venezuela, Sofi is a junior in Psychology.'],
-  ['Secretary', 'Nathalia Valdez', 'From Monagas, Venezuela, Nathalia is a freshman Pre-Nursing with a minor in Business.'],
-  ['Social Media Chair', 'Lucy Torres', 'From Jalisco, Mexico, Lucy is a junior in Business Administration.'],
-  ['Venezuelan Night Coordinator', '[Name]', 'From [Location], [Name] is a [Year] in [Major].'],
-  ['[Role]', '[Name]', 'From [Location], [Name] is a [Year] in [Major].']
+  ['Secretary', 'Lucy Torres', 'From Jalisco, Mexico, Lucy is a junior in Business Administration.']
 ];
 
 const execTeam = globalPics.executives.images.map((img, i) => {
