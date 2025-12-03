@@ -199,6 +199,5 @@
 
 ---
 
-**Last Updated:** January 2025
-**Next Review:** February 2025
-**Responsible Team:** Web Development Team
+**Last Updated:** August 2025
+**Next Review:** August 2025
