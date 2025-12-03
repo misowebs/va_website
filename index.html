@@ -5,6 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/images/logos/VA_Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    
     <!-- Primary Meta Tags -->
     <title>Venezuelan Association at OU | Venezuelan Culture & Community</title>
     <meta name="title" content="Venezuelan Association at OU | Venezuelan Culture & Community" />
@@ -13,25 +18,48 @@
     <meta name="author" content="Venezuelan Association at OU" />
     <meta name="robots" content="index, follow" />
     
+    <!-- Geo Tags for Local SEO -->
+    <meta name="geo.region" content="US-OK" />
+    <meta name="geo.placename" content="Norman" />
+    <meta name="geo.position" content="35.2226;-97.4395" />
+    <meta name="ICBM" content="35.2226, -97.4395" />
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://vaou.org/" />
     <meta property="og:title" content="Venezuelan Association at OU | Venezuelan Culture & Community" />
     <meta property="og:description" content="Join the vibrant Venezuelan community at the University of Oklahoma. Discover our cultural events, scholarships, and community activities." />
-    <meta property="og:image" content="/images/logos/VA_Logo.png" />
+    <meta property="og:image" content="https://vaou.org/images/logos/VA_Logo.png" />
+    <meta property="og:locale" content="en_US" />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://vaou.org/" />
     <meta property="twitter:title" content="Venezuelan Association at OU | Venezuelan Culture & Community" />
     <meta property="twitter:description" content="Join the vibrant Venezuelan community at the University of Oklahoma. Discover our cultural events, scholarships, and community activities." />
-    <meta property="twitter:image" content="/images/logos/VA_Logo.png" />
+    <meta property="twitter:image" content="https://vaou.org/images/logos/VA_Logo.png" />
     
     <!-- Additional SEO Meta Tags -->
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
     <meta name="theme-color" content="#004080" />
     <link rel="canonical" href="https://vaou.org/" />
+    
+    <!-- Google Analytics 4 -->
+    <!-- Replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Google Search Console Verification -->
+    <!-- Replace with your actual verification code from Google Search Console -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+    
+    <!-- Fonts with display=swap for performance -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     
     <!-- Structured Data (JSON-LD) for SEO -->
@@ -40,19 +68,29 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Venezuelan Association at OU",
+      "alternateName": "VAOU",
       "url": "https://vaou.org",
       "logo": "https://vaou.org/images/logos/VA_Logo.png",
       "description": "We are dedicated to fostering a vibrant community by sharing Venezuelan culture and traditions with students, faculty, and the wider community.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "University of Oklahoma",
         "addressLocality": "Norman",
         "addressRegion": "OK",
+        "postalCode": "73019",
         "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "35.2226",
+        "longitude": "-97.4395"
       },
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "va@groups.ou.edu",
-        "contactType": "general"
+        "contactType": "general",
+        "areaServed": "US-OK",
+        "availableLanguage": ["English", "Spanish"]
       },
       "sameAs": [
         "https://www.facebook.com/venezuelanassociation/",
@@ -71,6 +109,51 @@
           "addressCountry": "US"
         }
       }
+    }
+    </script>
+    
+    <!-- LocalBusiness Schema for Better Local SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Venezuelan Association at OU",
+      "image": "https://vaou.org/images/logos/VA_Logo.png",
+      "@id": "https://vaou.org",
+      "url": "https://vaou.org",
+      "telephone": "",
+      "priceRange": "Free",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "University of Oklahoma",
+        "addressLocality": "Norman",
+        "addressRegion": "OK",
+        "postalCode": "73019",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.2226,
+        "longitude": -97.4395
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/venezuelanassociation/",
+        "https://www.instagram.com/va_ou_/",
+        "https://www.linkedin.com/company/vaou/",
+        "https://www.tiktok.com/@afv_ou"
+      ]
     }
     </script>
     

@@ -1,18 +1,19 @@
 import Header from './header/Header'
 import Footer from './footer/Footer'
+import Breadcrumbs from '../common/Breadcrumbs'
 import { Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import PerformanceMonitor from '../common/PerformanceMonitor'
 
 function Layout() {
     const location = useLocation()
-    
+
     // Get page-specific meta data based on current route
     const getPageMeta = () => {
         const path = location.pathname
         const baseUrl = 'https://vaou.org'
-        
-        switch(path) {
+
+        switch (path) {
             case '/':
                 return {
                     title: 'Venezuelan Association at OU | Venezuelan Culture & Community',
@@ -67,14 +68,14 @@ function Layout() {
                 }
         }
     }
-    
+
     // Update meta tags when location changes
     useEffect(() => {
         const pageMeta = getPageMeta()
-        
+
         // Update document title
         document.title = pageMeta.title
-        
+
         // Update meta description
         let metaDescription = document.querySelector('meta[name="description"]')
         if (!metaDescription) {
@@ -83,7 +84,7 @@ function Layout() {
             document.head.appendChild(metaDescription)
         }
         metaDescription.content = pageMeta.description
-        
+
         // Update meta keywords
         let metaKeywords = document.querySelector('meta[name="keywords"]')
         if (!metaKeywords) {
@@ -92,7 +93,7 @@ function Layout() {
             document.head.appendChild(metaKeywords)
         }
         metaKeywords.content = pageMeta.keywords
-        
+
         // Update canonical link
         let canonicalLink = document.querySelector('link[rel="canonical"]')
         if (!canonicalLink) {
@@ -101,7 +102,7 @@ function Layout() {
             document.head.appendChild(canonicalLink)
         }
         canonicalLink.href = pageMeta.canonical
-        
+
         // Update Open Graph tags
         const ogTags = [
             { property: 'og:title', content: pageMeta.title },
@@ -111,7 +112,7 @@ function Layout() {
             { property: 'og:image', content: 'https://vaou.org/images/logos/VA_Logo.png' },
             { property: 'og:site_name', content: 'Venezuelan Association at OU' }
         ]
-        
+
         ogTags.forEach(tag => {
             let ogTag = document.querySelector(`meta[property="${tag.property}"]`)
             if (!ogTag) {
@@ -121,7 +122,7 @@ function Layout() {
             }
             ogTag.content = tag.content
         })
-        
+
         // Update Twitter Card tags
         const twitterTags = [
             { name: 'twitter:card', content: 'summary_large_image' },
@@ -129,7 +130,7 @@ function Layout() {
             { name: 'twitter:description', content: pageMeta.description },
             { name: 'twitter:image', content: 'https://vaou.org/images/logos/VA_Logo.png' }
         ]
-        
+
         twitterTags.forEach(tag => {
             let twitterTag = document.querySelector(`meta[name="${tag.name}"]`)
             if (!twitterTag) {
@@ -139,24 +140,25 @@ function Layout() {
             }
             twitterTag.content = tag.content
         })
-        
+
     }, [location])
-    
+
     return (
         <>
-        {/* Performance monitoring for Core Web Vitals */}
-        <PerformanceMonitor />
-        
-        {/* Skip to main content link for accessibility */}
-        <a href="#main-content" className="skip-link">
-            Skip to main content
-        </a>
-        
-        <Header />
-        <main id="main-content" style={{ minHeight: '80vh', padding: '1rem 1rem'}}>
-            <Outlet /> 
-        </main>
-        <Footer />
+            {/* Performance monitoring for Core Web Vitals */}
+            <PerformanceMonitor />
+
+            {/* Skip to main content link for accessibility */}
+            <a href="#main-content" className="skip-link">
+                Skip to main content
+            </a>
+
+            <Header />
+            <main id="main-content" style={{ minHeight: '80vh', padding: '1rem 1rem' }}>
+                <Breadcrumbs />
+                <Outlet />
+            </main>
+            <Footer />
         </>
     )
 }

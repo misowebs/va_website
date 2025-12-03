@@ -8,6 +8,7 @@ import AboutUs from './pages/aboutUs/AboutUs'
 import History from './pages/history/History'
 import Scholarships from './pages/scholarships/Scholarships'
 import JoinUs from './pages/joinUs/JoinUs'
+import NotFound from './pages/notFound/NotFound'
 import { galleryRoutes } from './routes/galleryRoutes'  // Gallery routes - centralized configuration
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/scholarships" element={<Scholarships />} />
           <Route path="/join-us" element={<JoinUs />} />
-          
+
           {/* Gallery routes - automatically generated from galleryRoutes */}
           {galleryRoutes.map((route) => (
             <Route
@@ -29,6 +30,9 @@ function App() {
               element={<route.element />}
             />
           ))}
+
+          {/* 404 catch-all route */}
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </ErrorBoundary>

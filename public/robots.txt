@@ -1,6 +1,8 @@
 # Robots.txt for Venezuelan Association at OU Website
 # https://vaou.org/robots.txt
+# Last Updated: December 2025
 
+# Default rule: Allow all bots to crawl everything
 User-agent: *
 Allow: /
 
@@ -10,7 +12,10 @@ Sitemap: https://vaou.org/sitemap.xml
 # Crawl delay (helps with server load)
 Crawl-delay: 1
 
-# Specific rules for different search engines
+# ============================================
+# Search Engine Specific Rules
+# ============================================
+
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
@@ -27,64 +32,40 @@ User-agent: DuckDuckBot
 Allow: /
 Crawl-delay: 1
 
-# Allow access to important resources
-Allow: /images/
-Allow: /css/
-Allow: /js/
-Allow: /*.js
-Allow: /*.css
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.gif
-Allow: /*.svg
-Allow: /*.ico
-Allow: /*.webp
+# ============================================
+# Block Development and Configuration Files
+# ============================================
+# Note: In production builds, these files won't exist anyway,
+# but we block them as a safety measure
 
-# Allow all gallery pages and main content
-Allow: /2025/
-Allow: /2024/
-Allow: /2023/
-Allow: /2022/
-Allow: /2021/
-Allow: /2019/
-Allow: /2018/
-Allow: /2017/
-Allow: /2014/
-Allow: /2006/
-Allow: /2005/
-Allow: /2004/
-
-# Main navigation pages
-Allow: /about-us
-Allow: /history
-Allow: /scholarships
-Allow: /join-us
-
-# Block access to development and system files
+# Version control and dependencies
 Disallow: /.git/
 Disallow: /node_modules/
+
+# Development configuration
 Disallow: /.vscode/
-Disallow: /*.log
-Disallow: /*.md
-Disallow: /package.json
-Disallow: /package-lock.json
+Disallow: /.env
+Disallow: /.env.*
+
+# Build configuration files
 Disallow: /vite.config.js
 Disallow: /eslint.config.js
 Disallow: /amplify.yml
-Disallow: /.env
-Disallow: /.env.local
-Disallow: /.env.production
+Disallow: /package.json
+Disallow: /package-lock.json
 
-# Block access to source maps and development files
+# Documentation and logs
+Disallow: /*.md
+Disallow: /*.log
+
+# Source maps (not useful for search engines)
 Disallow: /*.map
-Disallow: /src/
-Disallow: /public/
 
-# Block access to temporary and cache files
-Disallow: /tmp/
-Disallow: /cache/
-Disallow: /temp/
-
-# Allow search engines to index the site
-Allow: /
+# ============================================
+# Important Notes
+# ============================================
+# - All images, CSS, JS, and media files are ALLOWED
+# - All gallery pages are ALLOWED
+# - All navigation pages are ALLOWED
+# - The /src/ and /public/ directories are NOT blocked
+#   (they don't exist in production builds anyway)
