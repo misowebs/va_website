@@ -1,6 +1,7 @@
 import { CDN } from '../../../constants/siteConfig';
 import '../../../components/global.css';
 import { useState, useEffect } from 'react';
+import Lightbox from '../../../components/Lightbox/Lightbox';
 
 const urlFor = (folder, file) => `${CDN}/${encodeURI(`${folder}${file}`)}`;
 
@@ -18,6 +19,8 @@ const isImage = (filename) => {
 
 function GalleryLayout({ data }) {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const checkScreenSize = () => {
@@ -29,6 +32,32 @@ function GalleryLayout({ data }) {
 
     return () => window.removeEventListener('resize', checkScreenSize);
   }, []);
+
+  const openLightbox = (index) => {
+    setCurrentImageIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => {
+    setLightboxOpen(false);
+  };
+
+  // Filter out non-image items for the lightbox navigation
+  const lightboxImages = data.images
+    .filter(file => isImage(file))
+    .map(file => urlFor(data.folder, file));
+
+  // Map original indices to lightbox indices
+  const getLightboxIndex = (originalIndex) => {
+    const imageFile = data.images[originalIndex];
+    if (!isImage(imageFile)) return -1;
+
+    let count = 0;
+    for (let i = 0; i < originalIndex; i++) {
+      if (isImage(data.images[i])) count++;
+    }
+    return count;
+  };
 
   return (
     <section className="section" style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -59,12 +88,14 @@ function GalleryLayout({ data }) {
                 src={urlFor(data.folder, file)}
                 alt={`${data.title}–${i + 1}`}
                 loading="lazy"
+                onClick={() => openLightbox(getLightboxIndex(i))}
                 style={{
                   width: '100%',
-                  height: 'auto',
+                  height: '100%',
                   display: 'block',
                   borderRadius: 'var(--border-radius-sm)',
                   boxShadow: 'var(--shadow-default)',
+                  cursor: 'pointer',
                 }}
               />
             ) : (
@@ -86,6 +117,14 @@ function GalleryLayout({ data }) {
           </figure>
         ))}
       </div>
+
+      {lightboxOpen && (
+        <Lightbox
+          images={lightboxImages}
+          initialIndex={currentImageIndex}
+          onClose={closeLightbox}
+        />
+      )}
     </section>
   );
 }

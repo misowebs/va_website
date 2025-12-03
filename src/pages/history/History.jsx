@@ -196,7 +196,7 @@ function History() {
           </p>
         </div>
       </div>
-      
+
       {sections.map((section, i) => {
         const isClickable = !isSectionOpen(i);
         return (
