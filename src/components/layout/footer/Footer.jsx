@@ -8,7 +8,7 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-left">
                     <Link to="/" className="footer-logo">
-                        <img src="/images/logos/VA_Logo.png" alt="VA Logo"/>
+                        <img src="/images/logos/VA_Logo.png" alt="VA Logo" />
                         <span className="footer-title">{SITE_CONFIG.title}</span>
                     </Link>
                     <p className="footer-description">{SITE_CONFIG.description}</p>
@@ -33,7 +33,7 @@ function Footer() {
             </div>
 
             <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} {SITE_CONFIG.title}, developed by Yul Castro</p>
+                <p>© {new Date().getFullYear()} {SITE_CONFIG.title}, developed by <a href="https://misowebs.com/YulCastro/" target="_blank" rel="noopener noreferrer">Yul Castro</a></p>
             </div>
         </footer>
     )
