@@ -30,10 +30,12 @@ function GalleryCarousel({ images, altPrefix = 'Gallery image' }) {
       <div className="carousel-dots-wrapper">
         <div className="carousel-dots">
           {images.map((_, idx) => (
-            <span
+            <button
               key={idx}
+              type="button"
               className={`dot${idx === current ? ' active' : ''}`}
               onClick={() => setCurrent(idx)}
+              aria-label={`Go to image ${idx + 1}`}
             />
           ))}
         </div>

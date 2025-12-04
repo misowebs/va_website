@@ -5,7 +5,7 @@ import './Header.css'
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
 
-    return(
+    return (
         <header className='header'>
             <div className='container'>
                 <Link to="/" className='logo'>
@@ -13,7 +13,7 @@ function Header() {
                     <span className='site-title'> Venezuelan Association at OU</span>
                 </Link>
 
-                <button className='menu-toggle' onClick={() => setMenuOpen(!menuOpen)}>
+                <button className='menu-toggle' onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close menu" : "Open menu"}>
                     {menuOpen ? '✕' : '☰'}
                 </button>
 
